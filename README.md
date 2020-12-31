@@ -1,6 +1,14 @@
 This repo contains the minimum needed to demonstrate the type erasure bug seen in Babel's typescript mode.
 
+## Issues
+
 It was seen in [Recharts Issue #2360](https://github.com/recharts/recharts/issues/2360).
+
+ * [Babel #12578](https://github.com/babel/babel/issues/12578)
+ * [Babel #11464](https://github.com/babel/babel/issues/11464)
+
+
+## Reproduce
 
 Check the checked-in `es6` folder to see what babel is currently emitting, or run `npm run build` / `yarn build` locally.
 
